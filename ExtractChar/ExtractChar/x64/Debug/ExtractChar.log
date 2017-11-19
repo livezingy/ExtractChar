@@ -1,0 +1,40 @@
+﻿生成启动时间为 2017/11/19 9:53:16。
+     1>项目“F:\GITHUB\ExtractChar\ExtractChar\ExtractChar.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\ExtractChar.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\ExtractChar.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ExtractChar.cpp extraction.cpp
+         extraction.cpp
+     1>D:\opencv3x\build_310\include\opencv2/core/mat.hpp(1959): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3x\build_310\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3x\build_310\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3x\build_310\include\opencv2/imgproc.hpp(618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>extraction.cpp(163): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>extraction.cpp(296): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>extraction.cpp(318): warning C4305: “初始化”: 从“double”到“float”截断
+     1>extraction.cpp(344): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>extraction.cpp(345): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>extraction.cpp(356): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>extraction.cpp(357): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>extraction.cpp(428): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>extraction.cpp(616): warning C4305: “初始化”: 从“double”到“float”截断
+     1>extraction.cpp(644): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>extraction.cpp(645): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>extraction.cpp(806): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         ExtractChar.cpp
+     1>D:\opencv3x\build_310\include\opencv2/core/mat.hpp(1959): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3x\build_310\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3x\build_310\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3x\build_310\include\opencv2/imgproc.hpp(618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ExtractChar.cpp(53): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GITHUB\ExtractChar\x64\Debug\ExtractChar.exe" /INCREMENTAL /NOLOGO opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\GITHUB\ExtractChar\x64\Debug\ExtractChar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\GITHUB\ExtractChar\x64\Debug\ExtractChar.lib" /MACHINE:X64 x64\Debug\ExtractChar.obj
+         x64\Debug\extraction.obj
+         x64\Debug\stdafx.obj
+         ExtractChar.vcxproj -> F:\GITHUB\ExtractChar\x64\Debug\ExtractChar.exe
+     1>已完成生成项目“F:\GITHUB\ExtractChar\ExtractChar\ExtractChar.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.08
