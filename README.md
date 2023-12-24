@@ -1,6 +1,5 @@
 # ExtractChar
 
-welcome to visit http://livezingy.com/chinese-characters-detecting-by-swt/ for more information about ExtractChar!
 ExtractChar could detect Chinese character with SWT and connectedComponentsWithStats.
 ![Single Test interface](https://github.com/livezingy/ExtractChar/blob/master/ExtractChar.png)
 
